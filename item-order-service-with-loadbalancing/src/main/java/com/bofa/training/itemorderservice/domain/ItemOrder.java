@@ -1,0 +1,40 @@
+package com.bofa.training.itemorderservice.domain;
+
+public class ItemOrder {
+    private int itemCode;
+    private String itemName;
+    private double totalAmount;
+    
+    public ItemOrder(int itemCode, String itemName, double totalAmount) {
+        super();
+        this.itemCode = itemCode;
+        this.itemName = itemName;
+        this.totalAmount = totalAmount;
+    }
+    public ItemOrder() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+    public int getItemCode() {
+        return itemCode;
+    }
+    public void setItemCode(int itemCode) {
+        this.itemCode = itemCode;
+    }
+    
+    public String getItemName() {
+        return itemName;
+    }
+    public void setItemName(String itemName) {
+        this.itemName = itemName;
+    }
+    public double getTotalAmount() {
+        return totalAmount;
+    }
+    public void setTotalAmount(double totalAmount) {
+        this.totalAmount = totalAmount;
+    }
+
+    
+    
+}
